@@ -1,0 +1,77 @@
+.optionsPdv{
+    width: 100%;
+    margin-bottom: 6%;
+}
+.optionsPdv ul{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.optionsPdv ul{
+    display: grid;
+    grid-template-columns: repeat(4,10vw);
+}
+.optionsPdv ul li{
+    border: solid black 1px;
+}
+.filtros{
+    width: 100%;
+    background-color: aquamarine;
+}
+.pdvTik{
+    width: 100%;
+    background-color: brown;
+    height: 79.9vh;
+    display: flex;
+    flex-direction: row;
+}
+.tiks{
+    padding: 3% 3%;
+    width: 75%;
+    border: pink solid 1px;
+    background-color: rgb(255, 150, 150);
+}
+.tiks ul{
+    list-style:none;
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    grid-template-rows: repeat(3,18vh);
+    grid-column-gap: 1%;
+    grid-row-gap: 2%;
+    margin-right: -0.5%;
+}
+.tiket{
+    background-color: antiquewhite;
+}
+.tiket:hover{
+    border: green solid 2px;
+}
+.ativo{
+    border:solid 2px greenyellow
+}
+.itensTik{
+    padding: 1.3% 3%;
+    width: 25%;
+    border: pink solid 1px;
+    background-color: rgb(255, 150, 150);
+}
+.itenstiketdiv{
+    background-color: bisque;
+    list-style: none;
+    height: 56vh;
+}
+.tiketitem{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.valoresitens{
+    width: 20%;
+    padding: 1% 0%;
+}

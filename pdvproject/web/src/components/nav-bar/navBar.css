@@ -1,0 +1,31 @@
+.nav-bar-grid{
+    display:  grid;
+    grid-template-columns: 20vw 40vw 15vw 15vw 10vw;
+    grid-template-rows: 17vh;
+    grid-auto-rows: 10vh;
+}
+.nav-bar ul{
+    list-style: none;
+}
+.nav-bar a, .logo{
+    margin-top: -4vh;
+}
+.nav-bar li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.logo{
+    width: 45%;
+    min-width: 15vh;
+    padding: 6vh 0 0 3vh;
+}
+.loginItem{
+    background-image: url('imgs/circle.jpg');
+    background-size: cover;
+}
+.login{
+    text-align: right;
+    padding-right: 5vh;
+}

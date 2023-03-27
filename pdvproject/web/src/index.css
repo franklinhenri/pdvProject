@@ -1,0 +1,51 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 0.85rem;
+}
+body::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+h1::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+h2::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+h3::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+p::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+a::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+li::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+button::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+img::selection { background: #EFA765; color: #fff; } ::-moz-selection { background: #EFA765; color: #fff; }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.container-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h2{
+  font-weight: normal;
+}
+button{
+  transition: all .2s;
+  background-color: #EFA765 ;
+  border: solid 2px white;
+  color: white;
+}
+button:hover{
+  background-color: white ;
+  border: #EFA765 2px solid;
+  color: #EFA765;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
